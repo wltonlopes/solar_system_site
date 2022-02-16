@@ -13,10 +13,15 @@ export default function Cards() {
     }, []);
     console.log(Planet);
 
+    const linkTo = (e) => {
+      const id = e.target.id;
+      window.location.href = id;
+    }
+
     if(Planet.length !== 0) {
       return(
         Planet.map(planet => (
-            <div className="card" id={planet}>
+            <div className="card" id={planet.name} onClick={ e =>linkTo(e)}>
             <p>Name: {planet.name}</p>
             <p>{planet.englishName}</p>
             <p>Type: {planet.bodyType}</p>

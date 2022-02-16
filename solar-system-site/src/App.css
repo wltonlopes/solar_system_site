@@ -24,7 +24,7 @@
   color: white;
 }
 .main {
-  background-color: #9cb8f0;
+  background-color: #313742;
   min-height: 90vh;
   display: flex;
   flex-direction: column;
@@ -37,7 +37,12 @@
   color: #61dafb;
 }
 .Button{
+  background-image: url('https://i.pinimg.com/564x/08/e5/c9/08e5c93b2e27731cd65c4364b32a52d4.jpg');
   background-color: #071f4e;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
   min-height: 20vh;
   display: flex;
   flex-direction: column;

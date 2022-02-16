@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
 import Button from './components/Button';
-import Cards from './components/Cards';  
 import Header from './components/Header';
+import Rotas from './router';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
     <Header/>
     <main className='main'>
       <div className='cards-container'>
-      <Cards/>
+        <Rotas/>
       </div>
     </main>
     <Button/>
